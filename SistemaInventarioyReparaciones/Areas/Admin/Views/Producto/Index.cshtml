@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+    <div class="row">
+        <div class="col-lg-6">
+            <h2 class="text-primary">Lista de Productos</h2>
+        </div>
+        <div class="col-lg-6">
+            <a class="btn btn-outline-primary" asp-action="Upsert"><i class="bi bi-plus-circle-dotted"></i> Crear Nuevo Producto </a>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="p-0 border rounded bg-light">
+        <table id="tblDatos" class="table table-responsive-lg table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Activo/
+                        Serie</th>
+                    <th>Descripcion</th>
+                    <th>Condicion</th>
+                    <th>Ubicacion</th>
+                    <th>Estado</th>
+                    <th>Categoria</th>
+                    <th>Sub-
+                        Categoria</th>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th></th>
+                </tr>
+
+            </thead>
+
+        </table>
+    </div>
+
+
+
+@section Scripts{
+    <script src="~/js/producto.js"></script>
+}

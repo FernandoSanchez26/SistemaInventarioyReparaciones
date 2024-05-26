@@ -1,0 +1,37 @@
+﻿@model SistemaInventarioyReparaciones.Modelos.ViewModels.InventarioVM
+
+@using SistemaInventarioyReparaciones.Utilidades
+@{
+    ViewData["Title"] = "EgresoInventario";
+    // Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-6">
+        <h2 class="text-primary">Egreso de Productos</h2>
+    </div>    
+</div>
+
+<br />
+
+<div class="p-4 border rounded bg-light">
+    <table id="tblDatos" class="table table-responsive table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th> </th>
+                <th>Bodega</th>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th> </th>
+            </tr>
+
+        </thead>
+       
+    </table>
+</div>
+
+
+@section Scripts{
+    <script src="~/js/egresoInventario.js"></script>
+}
+

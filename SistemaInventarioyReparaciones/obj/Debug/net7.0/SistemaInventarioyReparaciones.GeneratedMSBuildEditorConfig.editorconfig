@@ -1,0 +1,261 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SistemaInventarioyReparaciones
+build_property.RootNamespace = SistemaInventarioyReparaciones
+build_property.ProjectDir = D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/Bodega/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9kZWdhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/Bodega/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm9kZWdhXFVwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/Categoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/Categoria/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhXFVwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/Marca/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFyY2FcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/Marca/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFyY2FcVXBzZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/ModeloP/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW9kZWxvUFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/ModeloP/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTW9kZWxvUFxVcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/OrdenEgreso/Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZW5FZ3Jlc29cRGV0YWxsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/OrdenEgreso/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZW5FZ3Jlc29cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/Producto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/Producto/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdG9cVXBzZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/Proveedor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvdmVlZG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/Proveedor/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvdmVlZG9yXFVwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/SubCategoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3ViQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/SubCategoria/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3ViQ2F0ZWdvcmlhXFVwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/Despacho/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xEZXNwYWNob1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/Despacho/OrdenEgresoConfirmacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xEZXNwYWNob1xPcmRlbkVncmVzb0NvbmZpcm1hY2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/Despacho/Proceder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xEZXNwYWNob1xQcm9jZWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/Inventario/Detalle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXERldGFsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/Inventario/DetalleInventario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXERldGFsbGVJbnZlbnRhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/Inventario/EgresoInventario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXEVncmVzb0ludmVudGFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/Inventario/ImprimirKardexEs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXEltcHJpbWlyS2FyZGV4RXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/Inventario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/Inventario/KardexProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXEthcmRleFByb2R1Y3RvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/Inventario/KardexProductoResultado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXEthcmRleFByb2R1Y3RvUmVzdWx0YWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/Inventario/NuevoInventario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xJbnZlbnRhcmlvXE51ZXZvSW52ZW50YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Areas/Inventario/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50YXJpb1xWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Views/Shared/_BotonesActualizarYRegresar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Cb3RvbmVzQWN0dWFsaXphcllSZWdyZXNhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Views/Shared/_BotonesCrearYRegresar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Cb3RvbmVzQ3JlYXJZUmVncmVzYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Views/Shared/_NotificacionesYAlertas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYWNpb25lc1lBbGVydGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Fernando/Proyecto TFG Taller/SistemaInventarioyReparaciones/SistemaInventarioyReparaciones/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-idl16jt8cc

@@ -1,0 +1,140 @@
+﻿@model SistemaInventarioyReparaciones.Modelos.ViewModels.DespachoProductoVM
+
+<form method="post">
+    <br />
+    <div class="backgroundWhiteBorder">
+        <div class="container">
+            <div class="card">
+                <div class="card-header bg-dark text-light ml-0 row">
+                    <div class="col-6">
+                        <i class="fa fa-shopping-cart"></i> &nbsp;
+                        Detalles de la Orden de Egreso
+                    </div>
+
+                </div>
+                <div class="card-body">
+                    <div class="container rounded p-2">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 pb-4">
+                                <div class="row">
+                                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-success">Detalles de Egreso:</span>
+                                    </h4>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>Número de oficio</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input asp-for="OrdenEgreso.NumeroOficio" type="text" class="form-control" id="numeroOficioId" />
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>Nombre Persona recibe</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input asp-for="OrdenEgreso.NombreRecibe" type="text" class="form-control" id="nombresId" />
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>Oficina</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input asp-for="OrdenEgreso.Oficina" type="text" class="form-control" id="oficinaId" />
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>Observaciones</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input asp-for="OrdenEgreso.Observaciones" type="text" class="form-control" id="observacionesId" />
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-12 col-lg-5 offset-lg-1">
+                                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                    <span class="text-success">Productos:</span>
+                                </h4>
+                                <ul class="list-group mb-3">
+                                    @foreach (var item in Model.DespachoProductoLista)
+                                    {
+                                        <li class="list-group-item d-flex justify-content-between">
+                                            <div>
+                                                <h6 class="my-0">@item.Producto.Descripcion</h6>
+                                                
+                                            </div>
+                                            <small class="text-muted">Cantidad: @item.Cantidad</small>
+                                        </li>
+                                    }
+
+                                    <li class="list-group-item d-flex justify-content-between bg-light">
+                                        <strong class="text-success">Total Productos</strong>
+                                        <strong class="text-success">@(Model.DespachoProductoLista.Count())</strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-12 col-md-8 pt-2">
+                            <p class="text-success">Fecha de despacho Productos: @DateTime.Now.ToShortDateString() </p>
+                        </div>
+                        <div class="col-12 col-md-4">
+
+                            <button type="submit" value="Realizar Despacho" class="btn btn-success form-control" id="procederId">Realizar Egreso Productos</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12  p-0">
+        <h3 class="text-success text-center"><i class="bi bi-journal-plus"></i></h3>
+    </div>
+    <div class="col-12 p-1">
+        <div class="text-center border-0">
+            <a asp-area="Inventario" asp-controller="Despacho" asp-action="Index" class="btn btn-outline-success ">Regresar al despacho de Productos</a>
+        </div>
+
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+
+        $("#procederId").click(function () {
+            let numeroOficioId = document.getElementById("numeroOficioId").value;
+            let nombresId = document.getElementById("nombresId").value;
+            let oficinaId = document.getElementById("oficinaId").value;
+            let observacionesId = document.getElementById("observacionesId").value;
+
+
+            if (numeroOficioId == '') {
+                swal("Error", "Ingresar Numero de Oficio", "error");
+                return false;
+            }
+            if (nombresId == '') {
+                swal("Error", "Ingresar Nombre de quien recibe", "error");
+                return false;
+            }
+            if (oficinaId == '') {
+                swal("Error", "Ingresar oficina", "error");
+                return false;
+            }
+            if (observacionesId == '') {
+                swal("Error", "Ingresar Observaciones", "error");
+                return false;
+            }
+            
+        });
+
+    </script>
+
+ }
+

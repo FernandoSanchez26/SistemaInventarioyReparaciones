@@ -1,0 +1,33 @@
+﻿﻿﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<br />
+<div class="border p-3">
+    <div class="d-lg-flex justify-content-between mb-3">
+        <div class="p-2">
+            <h2 class="text-primary">Lista de Ordenes Despachadas</h2>
+        </div>        
+    </div>
+    <br /><br />
+    <table id="tblDatos" class="table table-responsive table-hover display nowrap" style="width:100%">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Usuario Entrega</th>
+                <th>Fecha Orden</th>
+                <th>Numero Oficio</th>
+                <th>Oficina</th>
+                <th>Nombre recibe</th>
+                <th></th>
+            </tr>
+        </thead>
+    </table>
+
+</div>
+
+@section Scripts {
+    <script src="~/js/ordenEgreso.js"></script>
+}

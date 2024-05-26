@@ -1,0 +1,63 @@
+﻿@page
+@using SistemaInventarioyReparaciones.Utilidades;
+@model RegisterModel
+@{
+    ViewData["Title"] = "Crear nuevo usuario";
+}
+
+<div class="container">
+    <h1>@ViewData["Title"]</h1>
+    <div class="row">
+        <div class="col-md-4">
+            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                
+                <hr />
+                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+               
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Email" class="form-control" aria-required="true"  />
+                    <label asp-for="Input.Email">Email</label>
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Nombres" class="form-control" aria-required="true" />
+                    <label asp-for="Input.Nombres">Nombre</label>
+                    <span asp-validation-for="Input.Nombres" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Apellidos" class="form-control" aria-required="true" />
+                    <label asp-for="Input.Apellidos">Apellidos</label>
+                    <span asp-validation-for="Input.Apellidos" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                    <label asp-for="Input.Password">Contraseña</label>
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+                </div>
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                    <label asp-for="Input.ConfirmPassword">Confirme Contraseña</label>
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                </div>
+                @if (User.IsInRole(DS.Role_Jefatura))
+                {
+                    <div class="form-floating mb-3">
+                        <lable asp-for="Input.Role"> Rol </lable>
+                        <select asp-for="Input.Role" asp-items="@Model.Input.ListaRol" class="form-select">
+                            <option disabled selected>--Seleccione el Rol</option>
+                        </select>
+
+                    </div>
+                }
+                <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Registrar</button>
+            </form>
+        </div>       
+    </div>
+
+</div>
+
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,12 @@
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Utilidades\bin\Debug\net7.0\SistemaInventarioyReparaciones.Utilidades.deps.json
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Utilidades\bin\Debug\net7.0\SistemaInventarioyReparaciones.Utilidades.dll
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Utilidades\bin\Debug\net7.0\SistemaInventarioyReparaciones.Utilidades.pdb
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Utilidades\obj\Debug\net7.0\SistemaInventarioyReparaciones.Utilidades.csproj.AssemblyReference.cache
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Utilidades\obj\Debug\net7.0\SistemaInventarioyReparaciones.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Utilidades\obj\Debug\net7.0\SistemaInventarioyReparaciones.Utilidades.AssemblyInfoInputs.cache
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Utilidades\obj\Debug\net7.0\SistemaInventarioyReparaciones.Utilidades.AssemblyInfo.cs
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Utilidades\obj\Debug\net7.0\SistemaInventarioyReparaciones.Utilidades.csproj.CoreCompileInputs.cache
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Utilidades\obj\Debug\net7.0\SistemaInventarioyReparaciones.Utilidades.dll
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Utilidades\obj\Debug\net7.0\refint\SistemaInventarioyReparaciones.Utilidades.dll
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Utilidades\obj\Debug\net7.0\SistemaInventarioyReparaciones.Utilidades.pdb
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Utilidades\obj\Debug\net7.0\ref\SistemaInventarioyReparaciones.Utilidades.dll

@@ -1,0 +1,132 @@
+﻿@model SistemaInventarioyReparaciones.Modelos.ViewModels.OrdenEgresoDetalleVM
+@using SistemaInventarioyReparaciones.Utilidades
+
+<form method="post">
+    <input hidden asp-for="OrdenEgreso.Id" />
+    <br />
+    <div class="container">
+        <div class="card">
+            <div class="card-header bg-dark text-light ml-0 row ">
+                <div class="col-12 d-none d-md-block col-md-6 pb-1">
+                    <i class="fas fa-shopping-cart"></i> &nbsp; Resumen de la Orden
+                </div>
+                <div class="col-12 col-md-4 offset-md-2 text-right">
+                    <a asp-area="Admin" asp-controller="OrdenEgreso" asp-action="Index" class="btn btn-outline-info form-control btn-sm">Regresar</a>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="container rounded p-2">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 pb-4">
+                            <div class="row">
+                                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                    <span class="text-secondary">Detalles de Egreso:</span>
+                                </h4>
+                            </div>
+                            <div class="row my-1">
+                                <div class="col-3">Tecnico Despachador</div>
+                                <div class="col-9">
+                                    @if (User.IsInRole(DS.Role_Adm_Inventario))
+                                    {
+                                        <input asp-for="OrdenEgreso.UsuarioApp.Nombres" class="form-control" />
+                                    }
+                                    else
+                                    {
+                                        <input asp-for="OrdenEgreso.UsuarioApp.Nombres" readonly type="text" class="form-control" />
+                                    }
+
+                                </div>
+                            </div>                            
+                            <div class="row my-1">
+                                <div class="col-3">Fecha Orden Egreso</div>
+                                <div class="col-9">
+                                    <input value="@Model.OrdenEgreso.FechaOrden.ToShortDateString()" readonly type="text" class="form-control" />
+                                </div>
+                            </div>
+                            
+                            <div class="row my-1">
+                                <div class="col-3">Numero Oficio</div>
+                                <div class="col-9">
+                                    @if (User.IsInRole(DS.Role_Adm_Inventario))
+                                    {
+                                        <input asp-for="OrdenEgreso.NumeroOficio" class="form-control" id="numeroEnvioId" />
+                                    }
+                                    else
+                                    {
+                                        <input asp-for="OrdenEgreso.NumeroOficio" readonly type="text" class="form-control" />
+                                    }
+                                </div>
+                            </div>
+                           
+                            @* @if (User.IsInRole(DS.Role_Adm_Inventario))
+                            { *@
+                                <div class="row my-1">
+                                    <div class="col-3">Nombre Recibe</div>
+                                    <div class="col-9">
+                                        <input asp-for="OrdenEgreso.NombreRecibe" type="text" readonly class="form-control" />
+                                    </div>
+                                </div>
+                                
+                                <div class="row my-1">
+                                    <div class="col-3">Oficina</div>
+                                    <div class="col-9">
+                                        <input asp-for="OrdenEgreso.Oficina" type="text" readonly class="form-control" />
+                                    </div>
+                                </div>
+
+                                <div class="row my-1">
+                                    <div class="col-3">Observaciones</div>
+                                    <div class="col-9">
+                                        <input asp-for="OrdenEgreso.Observaciones" type="text" readonly class="form-control" />
+                                    </div>
+                                </div>
+                            @* } *@
+
+                        </div>
+                        <div class="col-12 col-lg-5 offset-lg-1">
+                            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                <span class="text-secondary">Detalle de la Orden</span>
+                            </h4>
+                            <ul class="list-group mb-3">
+                                @foreach (var item in Model.OrdenEgresoDetalleLista)
+                                {
+                                    <li class="list-group-item d-flex justify-content-between p-2">
+                                        <div class="row container">
+                                            <div class="col-8">
+                                                <input type="hidden" asp-for="@item.Id" />
+                                                <h6 class="my-0 text-secondary">@item.Producto.Descripcion</h6>
+                                                <small class="text-muted">Activo/Serie : @item.Producto.Activo_Serie</small><br />
+                                                
+                                            </div>
+                                            <div class="col-4 text-end">
+                                                <p class="text-success">@(item.Cantidad)</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                }
+
+                                @* <li class="list-group-item bg-info">
+                                    <div class="row container">
+                                        <div class="col-8">
+                                            <h6 class="text-white">TOTAL </h6>
+                                        </div>
+                                        <div class="col-4 text-end">
+                                            <h6 class="text-white">@(Model.OrdenEgresoDetalleLista.Count())</h6>
+                                        </div>
+                                    </div>
+                                </li> *@
+                            </ul>
+
+                           
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+
+

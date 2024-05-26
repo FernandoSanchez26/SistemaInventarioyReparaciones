@@ -1,0 +1,17 @@
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\bin\Debug\net7.0\SistemaInventarioyReparaciones.AccesoDatos.deps.json
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\bin\Debug\net7.0\SistemaInventarioyReparaciones.AccesoDatos.dll
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\bin\Debug\net7.0\SistemaInventarioyReparaciones.AccesoDatos.pdb
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\bin\Debug\net7.0\SistemaInventarioyReparaciones.Modelos.dll
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\bin\Debug\net7.0\SistemaInventarioyReparaciones.Utilidades.dll
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\bin\Debug\net7.0\SistemaInventarioyReparaciones.Modelos.pdb
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\bin\Debug\net7.0\SistemaInventarioyReparaciones.Utilidades.pdb
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\obj\Debug\net7.0\SistemaInventarioyReparaciones.AccesoDatos.csproj.AssemblyReference.cache
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\obj\Debug\net7.0\SistemaInventarioyReparaciones.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\obj\Debug\net7.0\SistemaInventarioyReparaciones.AccesoDatos.AssemblyInfoInputs.cache
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\obj\Debug\net7.0\SistemaInventarioyReparaciones.AccesoDatos.AssemblyInfo.cs
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\obj\Debug\net7.0\SistemaInventarioyReparaciones.AccesoDatos.csproj.CoreCompileInputs.cache
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\obj\Debug\net7.0\SistemaInventarioyReparaciones.AccesoDatos.csproj.CopyComplete
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\obj\Debug\net7.0\SistemaInventarioyReparaciones.AccesoDatos.dll
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\obj\Debug\net7.0\refint\SistemaInventarioyReparaciones.AccesoDatos.dll
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\obj\Debug\net7.0\SistemaInventarioyReparaciones.AccesoDatos.pdb
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.AccesoDatos\obj\Debug\net7.0\ref\SistemaInventarioyReparaciones.AccesoDatos.dll

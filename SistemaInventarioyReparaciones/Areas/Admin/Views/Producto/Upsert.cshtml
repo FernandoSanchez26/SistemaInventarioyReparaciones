@@ -1,0 +1,132 @@
+﻿@model SistemaInventarioyReparaciones.Modelos.ViewModels.ProductoVM
+@using SistemaInventarioyReparaciones.Utilidades
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var titulo = "Crear Nuevo Producto";
+}
+
+<form method="post">
+
+    @if (Model.Producto.Id != 0)
+    {
+        titulo = "Actualizar Producto";
+        <input asp-for="Producto.Id" hidden />
+    }
+
+    <div class="border p-3">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <h2 class="text-info">@titulo</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-9">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Activo/Serie</label>
+                            <input asp-for="Producto.Activo_Serie" class="form-control" />
+                            <span asp-validation-for="Producto.Activo_Serie" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Descripcion</label>
+                            <input asp-for="Producto.Descripcion" class="form-control" />
+                            <span asp-validation-for="Producto.Descripcion" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Condicion</label>
+                            <select asp-for="Producto.Condicion" class="form-select" >
+                                <option value="Nuevo">Nuevo</option>
+                                <option value="Usado">Usado</option>
+                            </select>
+                            <span asp-validation-for="Producto.Condicion" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Ubicacion</label>
+                            <input asp-for="Producto.Ubicacion" class="form-control" />
+                            <span asp-validation-for="Producto.Ubicacion" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Estado</label>
+                            <select asp-for="Producto.EstadoP" class="form-select">
+                                <option value="true">Activo</option>
+                                <option value="false">Inactivo</option>
+                            </select>
+                            <span asp-validation-for="Producto.EstadoP" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Categoria</label>
+                            <select asp-for="Producto.CategoriaId" asp-items="@Model.CategoriaLista" class="form-select">
+                                <option disabled selected>--Seleccione una Categoria </option>
+                            </select>
+                            <span asp-validation-for="Producto.CategoriaId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>SubCategoria</label>
+                            <select asp-for="Producto.SubCategoriaId" asp-items="@Model.SubCategoriaLista" class="form-select">
+                                <option disabled selected>--Seleccione una SubCategoria </option>
+                            </select>
+                            <span asp-validation-for="Producto.SubCategoriaId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                     <div class="row">
+                        <div class="col-md-6">
+                            <label>Marca</label>
+                            <select asp-for="Producto.MarcaId" asp-items="@Model.MarcaLista" class="form-select">
+                                <option disabled selected>--Seleccione una Marca </option>
+                            </select>
+                            <span asp-validation-for="Producto.MarcaId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label>Modelo</label>
+                            <select asp-for="Producto.ModeloPId" asp-items="@Model.ModeloPLista" class="form-select">
+                                <option disabled selected>--Seleccione un modelo </option>
+                            </select>
+                            <span asp-validation-for="Producto.ModeloPId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <br />
+
+                    <div class="d-grid gap-2 d-md-block">
+                        @if (Model.Producto.Id != 0)
+                        {
+                            <partial name="_BotonesActualizarYRegresar" model="Model.Producto.Id" />
+                        }
+                        else
+                        {
+                            <partial name="_BotonesCrearYRegresar" />
+                        }
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+</form>

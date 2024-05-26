@@ -1,0 +1,15 @@
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\bin\Debug\net7.0\SistemaInventarioyReparaciones.Modelos.deps.json
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\bin\Debug\net7.0\SistemaInventarioyReparaciones.Modelos.dll
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\bin\Debug\net7.0\SistemaInventarioyReparaciones.Modelos.pdb
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\bin\Debug\net7.0\SistemaInventarioyReparaciones.Utilidades.dll
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\bin\Debug\net7.0\SistemaInventarioyReparaciones.Utilidades.pdb
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\obj\Debug\net7.0\SistemaInventarioyReparaciones.Modelos.csproj.AssemblyReference.cache
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\obj\Debug\net7.0\SistemaInventarioyReparaciones.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\obj\Debug\net7.0\SistemaInventarioyReparaciones.Modelos.AssemblyInfoInputs.cache
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\obj\Debug\net7.0\SistemaInventarioyReparaciones.Modelos.AssemblyInfo.cs
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\obj\Debug\net7.0\SistemaInventarioyReparaciones.Modelos.csproj.CoreCompileInputs.cache
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\obj\Debug\net7.0\SistemaInventarioyReparaciones.Modelos.csproj.CopyComplete
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\obj\Debug\net7.0\SistemaInventarioyReparaciones.Modelos.dll
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\obj\Debug\net7.0\refint\SistemaInventarioyReparaciones.Modelos.dll
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\obj\Debug\net7.0\SistemaInventarioyReparaciones.Modelos.pdb
+D:\Fernando\Proyecto TFG Taller\SistemaInventarioyReparaciones\SistemaInventarioyReparaciones.Modelos\obj\Debug\net7.0\ref\SistemaInventarioyReparaciones.Modelos.dll
